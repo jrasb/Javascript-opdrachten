@@ -3,7 +3,7 @@ console.log("main.js loaded");
 console.log("opdracht 1");
 
 const getalPrompt = prompt("voer getal tussen 1 en 15 in");
-const getalInt = parseInt(getalPrompt);
+const getalInt = parseInt(getalPrompt, 10);
 
 for (let i = 0; i <= getalInt; i++) {
     console.log(i);
@@ -12,7 +12,7 @@ for (let i = 0; i <= getalInt; i++) {
 console.log("opdarcht 2");
 
 for (feet = 0; feet <= 10; feet++) {
-    console.log(feet + " foot is " + feet*30.49 + " cm.")
+    console.log(feet + " foot is " + (feet * 30.49) + " cm.")
 }
 
 console.log("opdracht 3");
