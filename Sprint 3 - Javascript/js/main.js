@@ -16,6 +16,7 @@ for (feet = 0; feet <= 10; feet++) {
 }
 
 console.log("opdracht 3");
+
 // With Array Manipulation
 
 let blockArray = [];
