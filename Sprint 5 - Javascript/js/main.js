@@ -3,18 +3,22 @@ const opdracht1 = (temperature) => {
         alert("!!! KOUD !!!");
         return;
     }
+
     if (temperature < 16) {
         document.body.innerHTML = "Het is niet warm. Jas aangeraden";
         return;
     }
+
     if (temperature < 24) {
         document.body.innerHTML = "Het is niet koud, maar ook niet heel warm";
         return;
     }
+
     if (temperature < 30) {
         document.body.innerHTML = "Het is warm. Jas niet aangeraden";
         return;
     }
+    
     document.body.innerHTML = "!!! WARM !!!"
     return;
 }
