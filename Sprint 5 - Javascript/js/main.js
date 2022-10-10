@@ -16,6 +16,7 @@ const opdracht1 = (temperature) => {
         return;
     }
     document.body.innerHTML = "!!! WARM !!!"
+    return;
 }
 
 const opdracht2 = (grade) => {
